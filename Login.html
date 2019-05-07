@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      #container{
+        padding-left:200px;
+        padding-right:150px;
+        border:1px solid red;
+      }
+      #header{
+        border:1px solid orange;
+        //width:80%;
+        height:200px;
+        //margin:0px auto;
+      }
+      #footer{
+        border:1px solid blue;
+        height:200px;
+        clear:both;
+      }
+
+      #container .column{
+        float:left;
+        height:200px;
+      }
+      #center{
+        width:100%;
+        border:1px solid yellow;
+      }
+      #left{
+        width:200px;
+        margin-left:-100%;
+        position:relative;
+        right:200px;
+        border:1px solid #007d65;
+      }
+      #right{
+        width:150px;
+        margin-right:-150px;
+        border:1px solid #121a2a;
+      }
+    </style>
+  </head>
+
+  <html>
+    <div id="header"></div>
+    <div id="container">
+      <div id="center" class="column"></div>
+      <div id="left" class="column"></div>
+      <div id="right" class="column"></div>
+    </div>
+    <div id="footer"></div>
+  </html>
+</html>
